@@ -1,0 +1,59 @@
+#heading .name-div {
+	position: relative;
+}
+.name-div h1 {
+	position: relative;
+	font-size: 10vw;
+	padding-top: 4vw;
+	margin-bottom: 2vw;
+	line-height: 10vw;
+	font-weight: 500;
+	letter-spacing: -0.6rem;
+	z-index: 2;
+	text-transform: uppercase;
+}
+.h-tape {
+	position: absolute;
+	margin: 6vw auto;
+	top: 0;
+	left: 0;
+	font-size: 10vw;
+	z-index: 1;
+}
+
+.code {
+	border: 1px solid;
+	padding: 1vw;
+	box-shadow: 5px 10px black;
+	border-radius: 5%;
+	max-width: 70%;
+	margin: 5vw auto;
+	font-size: 1.3rem;
+	text-align: center;
+}
+.code h3{
+	margin-top: 0.5vw;
+	margin-bottom: 1vw;
+	font-weight: 800;
+}
+@media (max-width: 768px) {
+	.name-div h1 {
+		padding-top: 10vw;
+		font-size: 15vw;
+		letter-spacing: -0.2rem;
+		font-weight: 800;
+	}
+	.name-div .h-tape {
+		font-size: 10vw;
+		margin: 12vw 0;
+	}
+	.code {
+		border: 1px solid;
+		padding: 3vw;
+		max-width: 80%;
+		margin: 15vw auto;
+		font-size: 1.4rem;
+		text-align: start;
+	}
+}
+

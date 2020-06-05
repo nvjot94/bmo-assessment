@@ -1,0 +1,39 @@
+.about-div {
+	text-align: start;
+	margin: 0 7% 10% 7%;
+	height: auto;
+	font-size: 1.2rem;
+	z-index: 2;
+}
+.about-div h2 {
+	font-size: 2.5rem;
+	margin: 7% 0 0 5%;
+}
+.about-div p {
+	font-weight: 500;
+	line-height: 1.2rem;
+	letter-spacing: 0.5px;
+	margin: 1% 5% 2% 5%;
+	text-align: justify;
+	line-height: 1.5rem;
+}
+
+
+
+
+@media (max-width: 768px) {
+	.about-div {
+		margin: 0 0 20% 0;
+		font-size: large;
+	}
+	.about-div h2 {
+		margin: 10% 0 0 2%;
+	}
+	.about-div p {
+		margin: 5% 2%;
+	}
+	.about-div .contactme {
+		margin-top: 0;
+		margin-left: 2%;
+	}
+}
