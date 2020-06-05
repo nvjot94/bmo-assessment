@@ -11,7 +11,9 @@ button{
     cursor: pointer;
     padding:2px;
 }
-
+label{
+    color:var(--primary-color);
+}
 .err-class{
     border:2px solid red;
 }
@@ -29,7 +31,6 @@ input {
        
         min-width: 10%;
         font-size: 1rem;
-       
     }
     
     input {
@@ -38,9 +39,4 @@ input {
         min-width: 50%;
     
     }
-}
-.filter-button{
-    padding-left: 1vw;
-    margin-left: 1vw;
-    padding-right: 1vw;
 }

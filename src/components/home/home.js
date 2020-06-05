@@ -3,7 +3,7 @@ import RestaurantList from '../restaurant/restaurantList';
 import { connect } from 'react-redux'; 
 import Search from '../input/Search';
 import Filter from '../input/Filter';
-import PropTypes from 'prop-types';
+
 import './home.css';
 const Home = ({ toggleMode,data }) => {
 	return (
@@ -24,7 +24,7 @@ const Home = ({ toggleMode,data }) => {
 				<div className='code'>
 					<h3>Find your table for any occasion</h3>
 					<Search />
-					{data?<Filter />:''}
+					{data?.length?<Filter />:''}
 				</div>
 				<RestaurantList />
 			</div>

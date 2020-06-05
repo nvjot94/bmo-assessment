@@ -28,9 +28,10 @@ const Search = ({ getData,setLoading }) => {
 	return (
 		<>
 		<form className='search-form'>
-		<label for="name">
+		<label for="name-inp">*</label>
 			<input 
 				data-testid="search-test-input"
+				id="name-inp"
 				className={showError? 'search-input err-class':'search-input'}
 				type='text'
 				name='name'
@@ -38,8 +39,8 @@ const Search = ({ getData,setLoading }) => {
 				onChange={onChange}
 				value={text}
 			/>
-			</label>
-			<button className='search-button'  onClick={onClick} >Find Food</button>
+			
+			<button className='search-button'  onClick={onClick} >Search</button>
 		</form>
 		
 		</>

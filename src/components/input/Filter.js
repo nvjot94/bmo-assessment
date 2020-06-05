@@ -25,17 +25,18 @@ const Filter = ({ filterData,setLoading }) => {
 	return (
 		<>
 		<form className='search-form'>
-		<label for="name">
+	<label for="filter-imp">*</label>
 		<input
 				className={showError? 'search-input err-class':'search-input'}
 				type='text'
+				id="filter-imp"
 				name='name'
 				placeholder='...name, address or area'
 				onChange={onChange}
 				onFocus={onFocus}
 				value={text}
 			/>
-			</label>
+			
 
 	<button className='filter-button' onClick={onClick} >Filter</button>
 		</form>
