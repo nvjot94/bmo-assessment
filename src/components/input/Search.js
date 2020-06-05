@@ -28,7 +28,7 @@ const Search = ({ getData,setLoading }) => {
 	return (
 		<>
 		<form className='search-form'>
-		<label for="name-inp">*</label>
+		<label htmlFor="name-inp">*</label>
 			<input 
 				data-testid="search-test-input"
 				id="name-inp"

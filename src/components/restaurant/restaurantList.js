@@ -11,14 +11,15 @@ const RestaurantList = ({ data, filtered }) => {
 			<div>
 				{data||filtered?<h2>Total Results : {filtered?filtered.length:data.length}</h2>:''}
 			</div>
-			<div className='project-container'>
+			hello
+			<div className='project-container' data-testid='restaurant-component'>
 			{filtered ? (
 						filtered.map(item => (
-							<Restaurant restaurant={item} key={item.id} />
+							<Restaurant restaurant={item} key={item.id}  />
 						))
 					) : data ? (
 						data.map(item => (
-							<Restaurant restaurant={item} key={item.id} />
+							<Restaurant restaurant={item} key={item.id}  />
 						))
 					) : null}
 			</div>

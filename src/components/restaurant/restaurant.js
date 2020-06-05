@@ -1,12 +1,12 @@
 import React, { Fragment } from 'react';
 
 import image  from './image.jpg';
-const ProjectFile = ({ restaurant }) => {
+const Restaurant = ({ restaurant }) => {
 	let { name,address,area,price} = restaurant;
 	return (
 		<Fragment>
-			<article className='card'>
-				<h5>{name}</h5>
+			<article className='card' data-testid='restaurant'>
+				<h5 data-testid='restaurant-name'>{name}</h5>
 				<figure>
 					<img src={image} alt='project-img' className='card-img' />
 				</figure>	
@@ -19,4 +19,4 @@ const ProjectFile = ({ restaurant }) => {
 	);
 };
 
-export default ProjectFile;
+export default Restaurant;

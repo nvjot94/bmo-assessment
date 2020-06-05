@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { filterData,setLoading } from '../../redux/action/RestaurantsActions';
 import PropTypes from 'prop-types';
 import './search.css';
-const Filter = ({ filterData,setLoading }) => {
+const Filter = ({ filterData }) => {
 	const [ text, setText ] = useState('');
 	const [ showError,setShowError  ] = useState(false);
 	const onFocus = () => setText('');
@@ -25,9 +25,10 @@ const Filter = ({ filterData,setLoading }) => {
 	return (
 		<>
 		<form className='search-form'>
-	<label for="filter-imp">*</label>
+	<label htmlFor="filter-imp">*</label>
 		<input
 				className={showError? 'search-input err-class':'search-input'}
+				data-testid="filter-test-input"
 				type='text'
 				id="filter-imp"
 				name='name'
