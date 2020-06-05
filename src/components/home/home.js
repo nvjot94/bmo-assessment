@@ -36,7 +36,5 @@ const mapStateToProps = state => ({
 	data: state.restaurants.restaurants
 });
 
-Home.propTypes = {
-	data: PropTypes.array.isRequired
-};
+
 export default connect(mapStateToProps)(Home);

@@ -25,7 +25,8 @@ const Filter = ({ filterData,setLoading }) => {
 	return (
 		<>
 		<form className='search-form'>
-			<label><input
+		<label for="name">
+		<input
 				className={showError? 'search-input err-class':'search-input'}
 				type='text'
 				name='name'

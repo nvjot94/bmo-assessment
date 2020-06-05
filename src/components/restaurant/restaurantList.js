@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { connect } from 'react-redux'; 
-import PropTypes from 'prop-types';
 import Restaurant from './restaurant';
 import './restaurant.css';
-const RestaurantList = ({ data, filtered, isFetching }) => {
+
+const RestaurantList = ({ data, filtered }) => {
 
 
 	return (
@@ -32,9 +32,5 @@ const mapStateToProps = state => ({
 	isFetching: state.restaurants.isFetching
 });
 
-RestaurantList.propTypes = {
-	data: PropTypes.array.isRequired,
-	filtered: PropTypes.array.isRequired,
-	isFetching: PropTypes.bool.isRequired
-};
+
 export default connect(mapStateToProps)(RestaurantList);

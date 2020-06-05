@@ -28,7 +28,7 @@ const Search = ({ getData,setLoading }) => {
 	return (
 		<>
 		<form className='search-form'>
-			<label>
+		<label for="name">
 			<input 
 				data-testid="search-test-input"
 				className={showError? 'search-input err-class':'search-input'}

@@ -19,7 +19,7 @@
 	display: none;
 }
 .project-div h5 {
-	font-size: 1.1rem;
+	font-size: 1.2rem;
 	margin-bottom: 1%;
 }
 .card {
@@ -29,7 +29,10 @@
 	padding: 2%;
 	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
+.card:hover{
 
+		transform: scale(1.01);
+}
 .card .card-img {
 	/* margin-right: 2%; */
 	margin-bottom: 2%;
@@ -66,6 +69,9 @@
 	}
 }
 @media (max-width: 768px) {
+	.card:hover{
+		transform: scale(1);
+}
 	.project-div {
 		margin: 0;
 		font-size: large;
