@@ -3,6 +3,7 @@
 	margin: 0 5% 0 5%;
 	height: auto;
 	font-size: 1.2rem;
+	
 }
 .project-div h2 {
 	font-size: 2.5rem;
@@ -27,6 +28,7 @@
 	background-color: white;
 	margin: 5% 5% 0% 5%;
 	padding: 2%;
+	color:black;
 	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 .card:hover{
@@ -101,7 +103,7 @@
 	}
 	.card {
 		border-radius: 1%;
-		background-color: var(--primary-color);
+		/* background-color: var(--secondary-color); */
 		margin: 5% 0% 1% 0%;
 		padding: 0;
 		box-shadow: none;

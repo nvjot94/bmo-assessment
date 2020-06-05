@@ -14,7 +14,7 @@ const ProjectFile = ({ restaurant }) => {
 				<p>{area}</p>	
 	<p>${price}</p>	
 			</article>
-			<hr className='hori-line' />
+			{/* <hr className='hori-line' /> */}
 		</Fragment>
 	);
 };

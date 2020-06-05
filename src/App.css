@@ -23,6 +23,7 @@ body {
 }
 .container {
 	background-color: var(--primary-color);
+	
 	color: var(--secondary-color);
 	text-align: center;
 	min-height: 100vh;
