@@ -8,24 +8,18 @@ const Menu = ({ toggleMode }) => {
 			<ul>
 				<li>
 					<Link exact to='/'>
-						<i className='material-icons' >
-							home
-						</i>
+						<i className='material-icons'>home</i>
 					</Link>
 				</li>
 				<li>
 					<Link to='/about'>
-						<i className='material-icons' >
-							person
-						</i>
+						<i className='material-icons'>person</i>
 					</Link>
 				</li>
 				<li>
-					
-						<i className='material-icons' onClick={toggleMode}>
+					<i className='material-icons' onClick={toggleMode}>
 						invert_colors
-						</i>
-				
+					</i>
 				</li>
 			</ul>
 		</nav>

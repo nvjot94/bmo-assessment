@@ -14,7 +14,7 @@ function App() {
 		localStorage.darkMode = localStorage.length
 			? localStorage.darkMode
 			: 'false';
-	});
+	}, []);
 	const toggleMode = () => {
 		localStorage.darkMode =
 			localStorage.darkMode === 'true' ? 'false' : 'true';

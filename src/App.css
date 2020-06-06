@@ -16,6 +16,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font: arial;
 }
 html,
 body {
@@ -23,7 +24,7 @@ body {
 }
 .container {
 	background-color: var(--primary-color);
-	
+
 	color: var(--secondary-color);
 	text-align: center;
 	min-height: 100vh;

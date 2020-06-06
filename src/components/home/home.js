@@ -5,7 +5,7 @@ import Search from '../input/Search';
 import Filter from '../input/Filter';
 
 import './home.css';
-const Home = ({ toggleMode,data }) => {
+const Home = ({ data }) => {
 	return (
 		<div>
 			<div id='heading'>
