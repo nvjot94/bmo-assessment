@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 :root {
 	--primary-color: #f5f5f5;
 }
@@ -24,7 +25,7 @@ body {
 }
 .container {
 	background-color: var(--primary-color);
-
+	font-family: "Roboto", sans-serif;
 	color: var(--secondary-color);
 	text-align: center;
 	min-height: 100vh;

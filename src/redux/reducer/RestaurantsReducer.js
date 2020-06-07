@@ -19,7 +19,7 @@ const reducer = (state = initialState, action) => {
 				...state,
 				filtered: state.restaurants.filter(restaurant => {
 					const { name, address, area } = restaurant;
-					console.log(action.payload);
+
 					return name.toLowerCase().includes(action.payload) ||
 					address.toLowerCase().includes(action.payload) ||
 					area.toLowerCase().includes(action.payload)
